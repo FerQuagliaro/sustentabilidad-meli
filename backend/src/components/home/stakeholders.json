@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_home_stakeholders",
+  "info": {
+    "displayName": "Stakeholders",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "overTitle": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "related": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stakeholder.stakeholder"
+    },
+    "items": {
+      "displayName": "StakeholderItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.stakeholder-item"
+    },
+    "featuredProjectsTitle": {
+      "type": "string"
+    },
+    "projects": {
+      "displayName": "projects",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.projects"
+    }
+  }
+}

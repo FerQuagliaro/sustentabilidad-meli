@@ -1,0 +1,124 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stakeholders",
+  "info": {
+    "singularName": "stakeholder",
+    "pluralName": "stakeholders",
+    "displayName": "Stakeholder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "string",
+      "unique": false,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "theme": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": ["yellow", "blue", "lightBlue", "green", "lightGreen", "pink"],
+      "required": true
+    },
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "stakeholders.hero"
+    },
+    "actWhere": {
+      "type": "component",
+      "repeatable": false,
+      "component": "stakeholders.we-act-where",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "importantNumbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.list-numbers",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "quoteSlider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "stakeholders.quote-slider",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "projects": {
+      "displayName": "ProjectsRelated",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "stakeholders.projects-related"
+    },
+    "moreStakeholders": {
+      "displayName": "MoreStakeholders",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "stakeholders.more-stakeholders"
+    }
+  }
+}

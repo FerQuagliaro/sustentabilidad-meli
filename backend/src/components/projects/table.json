@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_projects_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

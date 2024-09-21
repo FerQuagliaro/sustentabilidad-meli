@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_projects_more_list_sections",
+  "info": {
+    "displayName": "AccordionSection",
+    "icon": "plus-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.paragraphs"
+    },
+    "items": {
+      "displayName": "MoreListItemSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.more-list-item-section"
+    }
+  }
+}

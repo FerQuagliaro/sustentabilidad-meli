@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_projects_regular_sections",
+  "info": {
+    "displayName": "RegularSection",
+    "icon": "underline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.paragraphs"
+    },
+    "logo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

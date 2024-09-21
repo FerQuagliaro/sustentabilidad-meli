@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_newslatter_results",
+  "info": {
+    "displayName": "Result",
+    "icon": "briefcase-medical"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    }
+  }
+}

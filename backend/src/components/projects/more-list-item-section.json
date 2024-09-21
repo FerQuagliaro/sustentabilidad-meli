@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_projects_more_list_item_sections",
+  "info": {
+    "displayName": "AccordionItemSection",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

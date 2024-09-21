@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_list_numbers",
+  "info": {
+    "displayName": "ListNumbers",
+    "icon": "backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "numbers": {
+      "displayName": "ListNumbersItem",
+      "type": "component",
+      "repetable": true,
+      "component": "common.list-numbers-item",
+      "repeatable": true
+    }
+  }
+}

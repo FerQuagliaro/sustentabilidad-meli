@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_gigantic_texts",
+  "info": {
+    "displayName": "GiganticText",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "lines": {
+      "displayName": "GiganticTextLine",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.gigantic-text-line"
+    }
+  }
+}

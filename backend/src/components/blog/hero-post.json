@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_hero_posts",
+  "info": {
+    "displayName": "HeroPost",
+    "icon": "cookie-bite",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overTitle": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_last_posts",
+  "info": {
+    "displayName": "LastPosts",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

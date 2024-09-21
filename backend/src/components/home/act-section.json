@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_act_sections",
+  "info": {
+    "displayName": "SliderSection",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ActSectionItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.act-section-item"
+    }
+  }
+}

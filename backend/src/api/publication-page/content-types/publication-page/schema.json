@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "publications_page",
+  "info": {
+    "singularName": "publication-page",
+    "pluralName": "publications-page",
+    "displayName": "PublicationPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "publications.hero",
+      "required": true
+    },
+    "featured": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "publications.featured",
+      "required": true
+    },
+    "search": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blog.search"
+    }
+  }
+}

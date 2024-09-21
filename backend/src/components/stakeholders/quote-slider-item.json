@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_stakeholders_quote_slider-items",
+  "info": {
+    "displayName": "QuoteSliderItem",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "imageSmall": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos", "images"]
+    },
+    "imageLarge": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos", "images"]
+    },
+    "videoId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

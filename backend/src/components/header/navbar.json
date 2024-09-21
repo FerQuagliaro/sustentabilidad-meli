@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_header_navbars",
+  "info": {
+    "displayName": "navbar",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "NavbarItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.navbar-item"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_home_video_sections",
+  "info": {
+    "displayName": "QuoteSection",
+    "icon": "microphone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["files"]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bottomText": {
+      "type": "string"
+    },
+    "bottomLinkText": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "bottomLinkUrl": {
+      "type": "string"
+    }
+  }
+}

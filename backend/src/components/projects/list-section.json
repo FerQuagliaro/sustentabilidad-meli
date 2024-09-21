@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_projects_list_sections",
+  "info": {
+    "displayName": "ListSection",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "ListItemSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.list-item-section"
+    }
+  }
+}

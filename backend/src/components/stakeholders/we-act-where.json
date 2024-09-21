@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_stakeholders_we_act_wheres",
+  "info": {
+    "displayName": "WeActWhere",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "displayName": "Paragraphs",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.paragraphs"
+    },
+    "thumb": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

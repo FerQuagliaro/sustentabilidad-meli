@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stakeholders_quote_sliders",
+  "info": {
+    "displayName": "QuoteSlider",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stakeholders.quote-slider-item"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_projects_cta_sections",
+  "info": {
+    "displayName": "CTASection",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}

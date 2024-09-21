@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_newslatter_options",
+  "info": {
+    "displayName": "Options",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

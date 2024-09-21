@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_button_downloads",
+  "info": {
+    "displayName": "Button Download",
+    "icon": "file-download"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": ["files"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_searches",
+  "info": {
+    "displayName": "Search",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

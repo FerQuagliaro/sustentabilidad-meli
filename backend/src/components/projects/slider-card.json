@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_projects_slider_cards",
+  "info": {
+    "displayName": "SliderCard",
+    "icon": "vr-cardboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

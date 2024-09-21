@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_publications_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

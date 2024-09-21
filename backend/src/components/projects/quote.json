@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_projects_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "author": {
+      "type": "string"
+    },
+    "bottomText": {
+      "type": "string"
+    }
+  }
+}

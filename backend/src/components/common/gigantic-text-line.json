@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_gigantic_text_lines",
+  "info": {
+    "displayName": "GiganticTextLine",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  }
+}

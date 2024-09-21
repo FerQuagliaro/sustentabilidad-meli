@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_projects_image_sections",
+  "info": {
+    "displayName": "ImageSection",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": ["images", "files", "videos"],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

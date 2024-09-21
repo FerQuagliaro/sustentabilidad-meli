@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_publications_featureds",
+  "info": {
+    "displayName": "Featured",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::publication.publication"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

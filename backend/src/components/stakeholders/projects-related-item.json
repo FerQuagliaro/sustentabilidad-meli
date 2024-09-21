@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_stakeholders_projects_related_items",
+  "info": {
+    "displayName": "ProjectsRelatedItem",
+    "icon": "italic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

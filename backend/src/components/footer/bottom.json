@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_bottoms",
+  "info": {
+    "displayName": "Bottom",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "copy": {
+      "type": "string"
+    },
+    "socials": {
+      "displayName": "Icon",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.icon"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.navbar-item"
+    }
+  }
+}

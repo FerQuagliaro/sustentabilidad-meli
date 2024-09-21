@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  strapi:
+    build: ./backend
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_NAME=strapi
+      - DATABASE_HOST=strapi-db
+      - DATABASE_PORT=5432
+      - DATABASE_USERNAME=strapi
+      - DATABASE_PASSWORD=strapi
+    depends_on:
+      - strapi-db
+    ports:
+      - '1337:1337'
+  strapi-db:
+    image: postgres:alpine
+    environment:
+      - POSTGRES_USER=strapi
+      - POSTGRES_PASSWORD=strapi
+      - POSTGRES_DB=strapi
+    volumes:
+      - strapi-db-data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        PUBLIC_API_URL: http://localhost:1337
+    environment:
+      - API_URL=http://strapi:1337
+      - SESSION_SECRET="0LsJPeFB/vKgPVghtGonlq3iCvduWgO2Hfto5yTLdbtdnQraLVNJKgZNIHb4M/Ux"
+    depends_on:
+      - strapi
+    ports:
+      - '3000:3000'
+
+volumes:
+  strapi-db-data:

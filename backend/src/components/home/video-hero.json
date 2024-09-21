@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_video_heroes",
+  "info": {
+    "displayName": "VideoHero",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "youtubeId": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

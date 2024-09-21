@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_act_section_items",
+  "info": {
+    "displayName": "SliderSectionItem",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

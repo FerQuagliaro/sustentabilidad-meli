@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stakeholders_more_stakeholders",
+  "info": {
+    "displayName": "MoreStakeholders",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "overTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publication_tags",
+  "info": {
+    "singularName": "publication-tag",
+    "pluralName": "publication-tags",
+    "displayName": "PublicationTag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

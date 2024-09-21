@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stakeholders_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "grin-beam"
+  },
+  "options": {},
+  "attributes": {
+    "overTitle": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

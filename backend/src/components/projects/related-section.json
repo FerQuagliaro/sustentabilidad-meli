@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_projects_related_sections",
+  "info": {
+    "displayName": "RelatedSection",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.paragraphs"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    }
+  }
+}

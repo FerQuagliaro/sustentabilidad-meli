@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_form_inputs",
+  "info": {
+    "displayName": "FormInput",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "errorMsg": {
+      "type": "string"
+    }
+  }
+}

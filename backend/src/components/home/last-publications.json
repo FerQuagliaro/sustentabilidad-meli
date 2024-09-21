@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_last_publications",
+  "info": {
+    "displayName": "Last Publications",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::publication.publication"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

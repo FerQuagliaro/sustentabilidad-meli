@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_common_list_numbers_items",
+  "info": {
+    "displayName": "ListNumbersItem",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "icon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "AuctionHammerIcon",
+        "BookHeartIcon",
+        "BoxDistributionIcon",
+        "CarIcon",
+        "CrossedEyeIcon",
+        "DeliveryTruckIcon",
+        "DeskChairIcon",
+        "GiftIcon",
+        "HandBagMoneyIcon",
+        "HandHoldingPhone",
+        "HeartMousePointerIcon",
+        "HireIcon",
+        "HouseIcon",
+        "LaptopCreditCardIcon",
+        "LaptopHeartIcon",
+        "LaptopMagnifyingGlassIcon",
+        "LaptopShopIcon",
+        "LaptopUser",
+        "LightbulbIcon",
+        "MobileCoinIcon",
+        "MobileMoneyBagIcon",
+        "MobileShopBagIcon",
+        "PenPaperIcon",
+        "PersonBriefcaseIcon",
+        "PlantIcon",
+        "ProductBoxIcon",
+        "ShoppingBasketHeartIcon",
+        "ShoppingBasketLikeIcon",
+        "ShoppingCartBrowserIcon",
+        "ShoppingCartHeartIcon",
+        "ShoppingCartIcon",
+        "ShoppingCartScreenIcon",
+        "WomanIcon",
+        "WorldGlobeIcon",
+        "WorldInSuitcaseIcon",
+        "WorldPaperPlaneIcon",
+        "WorldTruckIcon"
+      ],
+      "required": true
+    }
+  }
+}

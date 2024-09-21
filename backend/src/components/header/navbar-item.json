@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_header_navbar_items",
+  "info": {
+    "displayName": "NavbarItem",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

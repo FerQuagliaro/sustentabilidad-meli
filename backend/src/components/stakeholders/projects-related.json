@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_stakeholders_projects_relateds",
+  "info": {
+    "displayName": "ProjectsRelated",
+    "icon": "unlink"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "ProjectsRelatedItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "stakeholders.projects-related-item"
+    },
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

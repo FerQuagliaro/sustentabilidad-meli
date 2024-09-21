@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_projects_yellow_list_sections",
+  "info": {
+    "displayName": "YellowListSection",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.paragraphs"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.list-item-section"
+    }
+  }
+}
